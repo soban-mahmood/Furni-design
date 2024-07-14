@@ -1,13 +1,7 @@
 import React from "react";
 const logo = "https://untree.co/demos/furni/images/couch.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init(
-  {
-    once: false,
-    mirror: false
-  }
-);
+
+;
 const Hero1 = () => {
   return (
     <div>
@@ -25,8 +19,7 @@ const Hero1 = () => {
               velit. <br /> Aliquam vulputate velit imperdiet dolor <br />{" "}
               tempor tristique.
             </p>
-            <div data-aos="flip-left" data-aos-easing="ease-in-out"
-          data-aos-duration="2000" className="flex gap-4  py-5">
+            <div  className="flex gap-4  py-5">
               <button className="bg-[#F4C32C] text-black  rounded-full  px-6 py-2 ">
                 Shop Now
               </button>
